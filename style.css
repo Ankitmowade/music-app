@@ -1,0 +1,101 @@
+*{padding: 0px;
+  margin: 0px;
+
+}
+section{
+  display:flex;
+
+}
+.section2{
+  margin-bottom:0px;
+}
+.main{
+ 
+  background-color:darkcyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:auto;
+   width: 10%;
+  justify-content: space-around;
+  color:#fff;
+  
+}
+.upper{
+   display: flex;
+  flex-direction: row;
+  width:100%;
+  height: 250px;
+  /*background:linear-gradient(red,lightblue,lightgreen,yellow,purple);*/
+  background-image:url("https://www.slidebackground.com/uploads/music-background/music-song-famous-texas-songwriter-lawyer-sued-texas-lawyer-6.jpg");
+  background-size:cover;
+  background-repeat:not;
+  
+  
+ 
+
+}
+p{
+  color:#fff;
+  font-weight:bold;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 30px;
+}
+i{
+  padding: 8px;
+}
+
+.lower{
+  background:linear-gradient(red,lightblue,lightgreen,yellow,purple);
+ /* background-image:url("https://www.slidebackground.com/uploads/music-background/music-song-famous-texas-songwriter-lawyer-sued-texas-lawyer-6.jpg");
+  background-size:cover;
+  background-repeat:not;*/
+  
+  
+  width:100%;
+  
+ 
+  
+
+  
+
+}
+table{
+  margin-left: 30px;
+  margin-right: 50px;
+  height:auto;
+  width: 100%;
+  height: 450px;
+
+  
+
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+.section2{
+  display:grid;
+  grid-template-columns: 100%;
+  width: 100vw;
+  height:750px;
+}
+
+footer {
+  display: flex;
+  flex: 0 0 90px;
+  background-color: rgba(16, 29, 49, 0.9);
+  color: #fff;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.footericon{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  
+}
+
